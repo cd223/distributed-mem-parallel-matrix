@@ -1,0 +1,79 @@
+
+INFO: MPI proc #0 allocated 1 row(s) of matrix to relax (starts 1 row(s) from top).
+
+INFO: MPI proc #1 allocated 1 row(s) of matrix to relax (starts 2 row(s) from top).
+
+INFO: MPI proc #2 allocated 1 row(s) of matrix to relax (starts 3 row(s) from top).
+
+INFO: MPI proc #3 allocated 0 row(s) of matrix to relax (starts 4 row(s) from top).
+
+INFO: MPI proc #4 allocated 0 row(s) of matrix to relax (starts 4 row(s) from top).
+
+INFO: MPI proc #5 allocated 0 row(s) of matrix to relax (starts 4 row(s) from top).
+
+INFO: MPI proc #6 allocated 0 row(s) of matrix to relax (starts 4 row(s) from top).
+
+INFO: MPI proc #7 allocated 0 row(s) of matrix to relax (starts 4 row(s) from top).
+
+INFO: MPI proc #8 allocated 0 row(s) of matrix to relax (starts 4 row(s) from top).
+
+INFO: Arguments to be used in program:
+   - Matrix Dimensions (-d):       5x5
+   - Relaxation Precision (-p):    0.200000
+   - Info Mode (-i):               NO
+   - Verbose Mode (-v):            YES
+
+INFO: 9 processes running...
+
+INFO: ___Initial Matrix_______
+
+1.000000 1.000000 1.000000 1.000000 1.000000 
+1.000000 0.000000 0.000000 0.000000 1.000000 
+1.000000 0.000000 0.000000 0.000000 1.000000 
+1.000000 0.000000 0.000000 0.000000 1.000000 
+1.000000 1.000000 1.000000 1.000000 1.000000 
+
+INFO: ___Iteration Complete_______
+
+1.000000 1.000000 1.000000 1.000000 1.000000 
+1.000000 0.500000 0.250000 0.500000 1.000000 
+1.000000 0.250000 0.000000 0.250000 1.000000 
+1.000000 0.500000 0.250000 0.500000 1.000000 
+1.000000 1.000000 1.000000 1.000000 1.000000 
+
+INFO: ___Iteration Complete_______
+
+1.000000 1.000000 1.000000 1.000000 1.000000 
+1.000000 0.625000 0.500000 0.625000 1.000000 
+1.000000 0.500000 0.250000 0.500000 1.000000 
+1.000000 0.625000 0.500000 0.625000 1.000000 
+1.000000 1.000000 1.000000 1.000000 1.000000 
+
+INFO: ___Iteration Complete_______
+
+1.000000 1.000000 1.000000 1.000000 1.000000 
+1.000000 0.750000 0.625000 0.750000 1.000000 
+1.000000 0.625000 0.500000 0.625000 1.000000 
+1.000000 0.750000 0.625000 0.750000 1.000000 
+1.000000 1.000000 1.000000 1.000000 1.000000 
+
+INFO: ___Relaxed Matrix (4 iterations)_______
+
+1.000000 1.000000 1.000000 1.000000 1.000000 
+1.000000 0.812500 0.750000 0.812500 1.000000 
+1.000000 0.750000 0.625000 0.750000 1.000000 
+1.000000 0.812500 0.750000 0.812500 1.000000 
+1.000000 1.000000 1.000000 1.000000 1.000000 
+
+########################################################################
+----------------------! Balena Job Details !----------------------------
+
+JobID          : 1783603
+No. of nodes   : 3
+No. of CPUs    : 48
+Timelimit      : 00:10:00
+Elapsed time   : 00:00:04
+Nodelist       : node-sw-[159-161]
+
+########################################################################
+

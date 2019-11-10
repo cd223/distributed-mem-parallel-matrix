@@ -1,0 +1,13 @@
+#!/bin/sh
+#SBATCH --account=cm30225
+#SBATCH --partition=teaching
+#SBATCH --mail-type=END
+#SBATCH --mail-user=cjd47@bath.ac.uk
+#SBATCH --job-name=Test
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+time mpirun -np $SLURM_NTASKS ./distributedrelax -d 10000 -p 0.010
+time mpirun -np $SLURM_NTASKS ./distributedrelax -d 10000 -p 0.009
+time mpirun -np $SLURM_NTASKS ./distributedrelax -d 10000 -p 0.008
+time mpirun -np $SLURM_NTASKS ./distributedrelax -d 10000 -p 0.007
+time mpirun -np $SLURM_NTASKS ./distributedrelax -d 10000 -p 0.006
